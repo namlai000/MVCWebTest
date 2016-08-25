@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <input name="id" type="hidden" value="@ViewBag.Employee.ID"/>
+            <input name="FullName" type="text" value="@ViewBag.Employee.FullName" />
+            <button type="submit">Edit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
